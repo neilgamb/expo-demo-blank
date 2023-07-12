@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9aded3bc-3232-4232-9174-b085327f4384"
+      }
+    },
+    "owner": "neilgamb"
   }
 }
