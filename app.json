@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-demo-blank",
     "slug": "expo-demo-blank",
+    "owner": "neilgamb-personal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neilgambpersonal.expodemoblank"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,9 +30,14 @@
     },
     "extra": {
       "eas": {
-        "projectId": "9aded3bc-3232-4232-9174-b085327f4384"
+        "projectId": "5f436dd4-3dd9-4e17-9ddb-7c876b101d20"
       }
     },
-    "owner": "neilgamb"
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5f436dd4-3dd9-4e17-9ddb-7c876b101d20"
+    }
   }
 }
